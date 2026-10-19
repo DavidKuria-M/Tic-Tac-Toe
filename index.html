@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="./scirpt.js" defer></script>
+    <title>TIc TAC TOE</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <span class="logo-white">Tic</span>
+            <span class="logo-blue">Tac</span>
+            <span class="logo-white">Toe</span>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How to Play</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <header class="game-header">
+            <span class="subtitle">CLASSIC GAME</span>
+            <h1>Tic Tac Toe</h1>
+            <p class="tagline">Take turns,get three in a row, and win!</p>
+        </header>
+
+        <div class="game-card">
+            <div class="status-bar">
+                <div class="player-box player-x">
+                    <div class="icon-x">
+                        <img src="./resources/X.png" alt="X">
+                    </div>
+                    <div class="player-info">
+                        <span class="label">Player X</span>
+                        <span class="score">0</span>
+                    </div>
+                </div>
+
+                <div class="turn-badge">X's turn</div>
+
+                <div class="player-box player-o">
+                    <div class="icon-o">
+                        <img src="./resources/O.png" alt="O">
+                    </div>
+                    <div class="player-info">
+                        <span class="label">Player O</span>
+                        <span class="score">0</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="board-grid">
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-newGame">New Game</button>
+                <button class="btn btn-resetScore">Reset score</button>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
