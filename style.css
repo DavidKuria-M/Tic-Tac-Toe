@@ -232,6 +232,14 @@ body{
     opacity: 0.9;
 }
 
+.icon-x-lg{
+    color: #3b82f6;
+}
+
+.icon-o-lg{
+    color: #f43f5e;
+}
+
 
 @media (max-width: 768px) {
 
